@@ -1,0 +1,55 @@
+.hero{
+    background-image: url("watch.jpeg");
+    
+
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 90vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+    font-family: raleway,sans-serif;
+
+    
+}
+
+.section-text{
+    letter-spacing: 8px;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.section-title{
+    font-family: 'Quando', serif;
+    font-weight: 600;
+    font-size: 50px;
+
+    
+    
+}
+
+.hero-col{
+    height: 90vh;
+}
+
+.navbar-brand{
+
+    font-weight: 100;
+    font-size: 2rem;
+    letter-spacing: 10px;
+}
+
+.frontPageImg{
+    width: 100%;
+}
+
+.right-text{
+    text-align: end;
+}
+
+.left-text{
+    text-align: start;
+}
+
+
+
