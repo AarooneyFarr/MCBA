@@ -84,8 +84,8 @@
 }
 
 .shop-img{
-    width: 200px;
-    height: 200px;
+    width: 270px;
+    height: 270px;
     object-fit: cover;
 
     
@@ -108,3 +108,42 @@ h1.light{
     letter-spacing: 10px;
     font-weight: 100;
 }
+
+
+
+.hover-filter:before {
+    content: "";
+    position: absolute;
+    
+    width: 270px;
+    height: 270px;
+    background-color: rgba(0, 0, 0, .3);
+    transition: opacity .3s;
+    opacity: 0;
+    z-index: 2;
+  }
+
+.hover-filter:hover:before {
+    opacity: 1;
+  }
+
+.item-page-img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.item-page-title{
+    font-weight: 300;
+    letter-spacing: 8px;
+}
+
+.item-page-text{
+    font-weight: 100;
+}
+
+.item-page-price{
+    font-weight: 900;
+
+}
+
